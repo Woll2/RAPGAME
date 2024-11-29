@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="250" cy="250" r="250" fill="#0098EA"/>
+    <path d="M360.859 161.551L250 108.145L139.141 161.551L250 214.957L360.859 161.551Z" fill="white"/>
+    <path d="M139.141 161.551V268.363L250 321.769V214.957L139.141 161.551Z" fill="white" fill-opacity="0.6"/>
+    <path d="M250 214.957V321.769L360.859 268.363V161.551L250 214.957Z" fill="white" fill-opacity="0.8"/>
+    <path d="M139.141 295.043L250 348.449L360.859 295.043L250 241.637L139.141 295.043Z" fill="white"/>
+</svg>
