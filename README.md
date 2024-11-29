@@ -18,10 +18,10 @@ Instead of using a separate presale contract, we utilize a specialized Jetton wa
 
 ## How to Purchase
 
-1. Send USDT to the presale wallet address
-2. You will automatically receive RAP tokens
-3. Minimum purchase is 1 USDT
-4. Maximum purchase is 1000 USDT per wallet
+1. "Go to the app
+2. Connect the wallet
+3. Enter the amount (minimum purchase is 1 USDT)
+4. Press the purchase button (maximum purchase is 1000 USDT per wallet)
 
 ## Get Methods
 
