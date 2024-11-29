@@ -23,16 +23,6 @@ Instead of using a separate presale contract, we utilize a specialized Jetton wa
 3. Enter the amount (minimum purchase is 1 USDT)
 4. Press the purchase button (maximum purchase is 1000 USDT per wallet)
 
-## Get Methods
-
-1. `get_presale_data()`:
-   - Returns (balance, price, total_sold, available)
-   - Shows current presale status
-
-2. `get_wallet_purchases(address)`:
-   - Returns total purchases for a specific wallet
-   - Used to check individual limits
-
 ## License
 
 MIT License
