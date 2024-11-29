@@ -17,14 +17,14 @@ Instead of using a separate presale contract, we utilize a specialized Jetton wa
 
 A specialized Jetton wallet contract that:
 - Holds the presale tokens (20,000 RAP)
-- Accepts TON and automatically sends RAP tokens
+- Accepts USDT and automatically sends RAP tokens
 - Tracks purchases per wallet
 - Enforces purchase limits
 
 Parameters:
-- Price: 1 TON = 1 RAP
-- Minimum purchase: 0.5 TON
-- Maximum purchase: 1000 TON per wallet
+- Price: 1 USDT = 0.1 RAP
+- Minimum purchase: 1 USDT
+- Maximum purchase: 1000 USDT per wallet
 - Total supply: 20,000 RAP
 
 ### Main Addresses
@@ -36,45 +36,8 @@ Parameters:
 
 1. Send TON to the presale wallet address
 2. You will automatically receive RAP tokens
-3. Minimum purchase is 0.5 TON
-4. Maximum purchase is 1000 TON per wallet
-
-## Development
-
-### Prerequisites
-
-```bash
-npm install
-```
-
-### Build
-
-```bash
-npm run build
-```
-
-### Deploy
-
-```bash
-npm run deploy
-```
-
-## Security Features
-
-1. Purchase Limits:
-   - Minimum: 0.5 TON
-   - Maximum: 1000 TON per wallet
-   - Total supply: 20,000 RAP
-
-2. Automatic Processing:
-   - Tokens are sent immediately upon payment
-   - TON is forwarded to owner
-   - Failed transactions are automatically refunded
-
-3. Transparency:
-   - Fixed token supply in wallet
-   - All purchases are recorded on-chain
-   - Public get-methods for checking status
+3. Minimum purchase is 1 USDT
+4. Maximum purchase is 1000 USDT per wallet
 
 ## Get Methods
 
