@@ -7,7 +7,7 @@ This repository contains the smart contracts for the RAP token presale on TON bl
 Instead of using a separate presale contract, we utilize a specialized Jetton wallet contract that handles the presale functionality. This approach provides better transparency and security:
 
 - The presale wallet will hold exactly 20,000 RAP tokens
-- Users can directly send TON to purchase RAP tokens
+- Users can directly send USDT to purchase RAP tokens
 - All purchases are tracked and limited per wallet
 - Automatic token distribution upon payment
 
