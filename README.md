@@ -18,7 +18,7 @@ Instead of using a separate presale contract, we utilize a specialized Jetton wa
 
 ## How to Purchase
 
-1. Send TON to the presale wallet address
+1. Send USDT to the presale wallet address
 2. You will automatically receive RAP tokens
 3. Minimum purchase is 1 USDT
 4. Maximum purchase is 1000 USDT per wallet
