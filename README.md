@@ -11,22 +11,6 @@ Instead of using a separate presale contract, we utilize a specialized Jetton wa
 - All purchases are tracked and limited per wallet
 - Automatic token distribution upon payment
 
-## Contract Details
-
-### Presale Wallet Contract (`contracts/rap-presale-wallet.fc`)
-
-A specialized Jetton wallet contract that:
-- Holds the presale tokens (20,000 RAP)
-- Accepts USDT and automatically sends RAP tokens
-- Tracks purchases per wallet
-- Enforces purchase limits
-
-Parameters:
-- Price: 1 USDT = 0.1 RAP
-- Minimum purchase: 1 USDT
-- Maximum purchase: 1000 USDT per wallet
-- Total supply: 20,000 RAP
-
 ### Main Addresses
 
 - RAP Token Contract: `EQAdgc5lDTT02t1jLT6gr_L26kv4HILWZYiVRBhcJX2lgZ6Y`
