@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import WebApp from "@twa-dev/sdk";
 import tonLogo from './ton.svg';
 import usdtLogo from './usdt.svg';
-import RGcoinLogo from '../RGcoinlogo.jpg';
+import RGcoinLogo from '/RGcoinlogo.jpg';
 
 const PRESALE_SUPPLY = 20000;
 const MIN_PURCHASE = 1;  // Минимальная покупка в USDT
@@ -34,7 +34,7 @@ function App() {
     return (
       <div className="Container LoadingContainer">
         <div className="LoadingContent">
-          <img src={RGcoinLogo} alt="RAP Logo" className="LoadingLogo" />
+          <img src="/RGcoinlogo.jpg" alt="RAP Logo" className="LoadingLogo" />
           <h2>Loading...</h2>
         </div>
       </div>
