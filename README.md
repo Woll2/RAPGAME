@@ -18,7 +18,7 @@ Instead of using a separate presale contract, we utilize a specialized Jetton wa
 
 ## How to Purchase
 
-1. "Go to the app
+1. Go to the app
 2. Connect the wallet
 3. Enter the amount (minimum purchase is 1 USDT)
 4. Press the purchase button (maximum purchase is 1000 USDT per wallet)
