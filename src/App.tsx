@@ -141,7 +141,16 @@ function App() {
           <div className="ButtonsSection">
             {!connected ? (
               <div className="ConnectButtonWrapper">
-                <TonConnectButton />
+                <TonConnectButton style={{
+                  backgroundColor: '#000000',
+                  color: '#000000',
+                  boxShadow: '0px 0px 1px 1px #00ff66',
+                  padding: '1px 100px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '4px',
+                  height: '40px',
+                }} />
               </div>
             ) : (
               <button 
