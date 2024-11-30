@@ -1,12 +1,16 @@
 {
-  "url": "https://woll2.github.io/Rapgameapp",
+  "url": "https://woll2.github.io/RAPGAME",
   "name": "RAP Game Presale",
-  "iconUrl": "https://woll2.github.io/Rapgameapp/icon.png",
-  "termsOfUseUrl": "https://woll2.github.io/Rapgameapp/terms.html",
-  "privacyPolicyUrl": "https://woll2.github.io/Rapgameapp/privacy.html",
-  "manifest_version": 0,
+  "description": "RAP Game Token Presale DApp",
+  "iconUrl": "https://woll2.github.io/RAPGAME/RGcoinlogo.jpg",
+  "termsOfUseUrl": "https://woll2.github.io/RAPGAME/terms.html",
+  "privacyPolicyUrl": "https://woll2.github.io/RAPGAME/privacy.html",
+  "manifest_version": 2,
   "version": "1.0.0",
   "types": ["web3"],
-  "universal_url": "https://woll2.github.io/Rapgameapp",
-  "permissions": ["mainnet"]
+  "universal_url": "https://woll2.github.io/RAPGAME",
+  "permissions": ["mainnet"],
+  "platforms": ["ios", "android", "chrome", "firefox", "safari"],
+  "min_version": "0.3.0",
+  "homepage_url": "https://woll2.github.io/RAPGAME"
 }

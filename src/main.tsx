@@ -9,7 +9,7 @@ import "./styles.css";
 const queryClient = new QueryClient()
 
 // Manifest URL для TON Connect
-const manifestUrl = "https://woll2.github.io/Rapgameapp/tonconnect-manifest.json"
+const manifestUrl = "https://woll2.github.io/RAPGAME/tonconnect-manifest.json"
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
