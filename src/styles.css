@@ -389,21 +389,20 @@ body {
 
 /* TonConnect кнопка */
 .go3294896168 {
-  background: #000000 !important;
-  color: #000000 !important;
-  padding: 1px 100px !important;
-  display: inline-flex !important;
+  background: transparent !important;
+  color: var(--text-primary) !important;
+  padding: 8px 16px 8px 12px !important;
+  display: flex !important;
   align-items: center !important;
-  align-content: center !important;
   gap: 4px !important;
-  height: 40px !important;
+  height: 48px !important;
   border-radius: var(--border-radius-md) !important;
   font-weight: 600 !important;
   text-transform: uppercase !important;
   letter-spacing: 0.5px !important;
   transition: all 0.3s ease !important;
-  border: aqua !important;
-  box-shadow:  0px 0px 2px 1px #00ff66 !important;
+  border: 2px solid var(--primary-color) !important;
+  box-shadow: 0 0 10px rgba(0, 255, 102, 0.2) !important;
 }
 
 .go3294896168:hover {
