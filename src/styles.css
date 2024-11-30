@@ -401,23 +401,6 @@ body {
     align-items: center;
 }
 
-.go3294896168 {
-  background: transparent !important;
-  color: var(--text-primary) !important;
-  padding: 8px 16px 8px 12px !important;
-  display: flex !important;
-  align-items: center !important;
-  gap: 4px !important;
-  height: 48px !important;
-  border-radius: var(--border-radius-md) !important;
-  font-weight: 600 !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.5px !important;
-  transition: all 0.3s ease !important;
-  border: 2px solid var(--primary-color) !important;
-  box-shadow: 0 0 10px rgba(0, 255, 102, 0.2) !important;
-}
-
 .go3294896168:hover {
   border-color: var(--primary-hover) !important;
   box-shadow: 0 0 15px rgba(0, 255, 102, 0.3) !important;
