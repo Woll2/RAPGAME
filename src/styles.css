@@ -388,27 +388,21 @@ body {
 }
 
 /* TonConnect кнопка */
-.go3294896168 {
-  background: rgba(0, 255, 0, 0.0) !important;
-  color: var(--text-primary) !important;
+.Container .go3294896168 {
+  background-color: #000000 !important;
+  color: #000000 !important;
+  box-shadow: 0px 0px 1px 1px #00ff66 !important;
   padding: 1px 100px !important;
   display: flex !important;
   align-items: center !important;
   gap: 4px !important;
-  height: 48px !important;
-  border-radius: var(--border-radius-md) !important;
-  font-weight: 600 !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.5px !important;
-  transition: all 0.3s ease !important;
-  border: 2px solid var(--primary-color) !important;
-  box-shadow: 0 0 10px rgba(0, 255, 102, 0.2) !important;
+  height: 40px !important;
+  border: none !important;
 }
 
-.go3294896168:hover {
-  border-color: var(--primary-hover) !important;
-  box-shadow: 0 0 15px rgba(0, 255, 102, 0.3) !important;
-  transform: translateY(-1px) !important;
+.Container .go3294896168:hover {
+  background-color: #000000 !important;
+  box-shadow: 0px 0px 2px 2px #00ff66 !important;
 }
 
 /* Лимиты */
