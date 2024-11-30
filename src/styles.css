@@ -56,6 +56,95 @@ body {
   margin-bottom: 24px;
   border: 1px solid var(--border-color);
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.MainWrapper .HeaderTitle {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.HeaderLogo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.HeaderTitle h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.HeaderTitle p {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: var(--text-secondary);
+  letter-spacing: 0.5px;
+}
+
+.ConnectButtonWrapper {
+  width: 100%;
+  background: transparent;
+  border: 2px solid var(--primary-color);
+  border-radius: var(--border-radius-lg);
+  padding: 12px 24px;
+  color: var(--text-primary);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 20px rgba(var(--color-primary-rgb), 0.2);
+}
+
+.ConnectButtonWrapper:hover {
+  box-shadow: 0 0 30px rgba(var(--color-primary-rgb), 0.4);
+  border-color: rgba(var(--color-primary-rgb), 0.8);
+}
+
+.InfoCard {
+  background: var(--card-background);
+  border-radius: var(--border-radius-xl);
+  padding: 24px;
+  margin-bottom: 24px;
+  border: 1px solid var(--border-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.InfoCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    circle at 30% 107%, 
+    rgba(var(--color-primary-rgb), 0.05) 0%, 
+    rgba(var(--color-primary-rgb), 0.02) 5%, 
+    rgba(var(--color-primary-rgb), 0.01) 45%, 
+    rgba(var(--color-primary-rgb), 0) 60%, 
+    rgba(var(--color-primary-rgb), 0) 100%
+  );
+  pointer-events: none;
+}
+
+.MainCard {
+  background: var(--card-background);
+  border-radius: var(--border-radius-xl);
+  padding: 20px;
+  margin-bottom: 16px;
+  border: 1px solid var(--border-color);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .MainContent {
@@ -67,7 +156,6 @@ body {
   margin: 0 auto;
 }
 
-/* Header */
 .AppHeader {
   display: flex;
   align-items: center;
@@ -122,47 +210,6 @@ body {
   to { transform: rotate(360deg); }
 }
 
-.HeaderLogo {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  position: relative;
-  z-index: 1;
-}
-
-.HeaderTitle {
-  position: relative;
-  z-index: 1;
-}
-
-.HeaderTitle h1 {
-  font-size: 24px;
-  font-weight: 700;
-  margin: 0;
-  color: #fff;
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
-}
-
-.HeaderTitle p {
-  margin: 4px 0 0;
-  font-size: 14px;
-  color: var(--text-secondary);
-  letter-spacing: 0.5px;
-}
-
-/* Основная карточка */
-.MainCard {
-  background: var(--card-background);
-  border-radius: var(--border-radius-xl);
-  padding: 20px;
-  margin-bottom: 16px;
-  border: 1px solid var(--border-color);
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-/* Секция прогресса */
 .ProgressSection {
   margin: 0;
   border-radius: var(--border-radius-xl);
@@ -202,7 +249,6 @@ body {
   color: var(--text-secondary);
 }
 
-/* Секция обмена */
 .SwapSection {
   display: flex;
   flex-direction: column;
@@ -282,36 +328,11 @@ body {
   opacity: 0.7;
 }
 
-/* Кнопки */
 .ButtonsSection {
   margin: 0;
   display: grid;
   place-items: center;
   width: 100%;
-}
-
-.ConnectButtonWrapper {
-  width: 100%;
-  max-width: 500px;
-  display: grid;
-  place-items: center;
-}
-
-.ConnectButtonWrapper :global(.tc-button) {
-  width: 100% !important;
-  height: 48px !important;
-  border-radius: var(--border-radius-lg) !important;
-  background: var(--primary-color) !important;
-  font-weight: 600 !important;
-  transition: all 0.3s ease !important;
-  border: none !important;
-  position: relative !important;
-  overflow: hidden !important;
-  display: grid !important;
-  place-items: center !important;
-  font-size: 16px !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.5px !important;
 }
 
 .PresaleButton {
@@ -387,7 +408,6 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* TonConnect кнопка */
 .custom-ton-button {
   background-color: #000000 !important;
   color: #000000 !important;
@@ -403,47 +423,6 @@ body {
 .custom-ton-button:hover {
   background-color: #000000 !important;
   box-shadow: 0px 0px 2px 2px #00ff66 !important;
-}
-
-/* Лимиты */
-.InfoCard {
-  background: var(--card-background);
-  border-radius: var(--border-radius-xl);
-  padding: 24px;
-  border: 1px solid rgba(var(--color-primary-rgb), 0.1);
-}
-
-.InfoHeader {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 24px;
-}
-
-.InfoLogo {
-  width: 48px;
-  height: 48px;
-  object-fit: cover;
-  border-radius: 50%;
-  flex-shrink: 0;
-}
-
-.InfoHeader div {
-  flex: 1;
-  min-width: 0;
-}
-
-.InfoHeader h2 {
-  font-size: 20px;
-  font-weight: 600;
-  margin: 0;
-  color: var(--text-primary);
-}
-
-.InfoHeader p {
-  color: var(--text-secondary);
-  font-size: 14px;
-  margin: 0;
 }
 
 .InfoGrid {
@@ -474,7 +453,6 @@ body {
   color: rgba(var(--color-primary-rgb), var(--alpha-primary)) !important;
 }
 
-/* Адаптивность */
 @media (max-width: 480px) {
   body {
     padding: 0;
@@ -499,7 +477,6 @@ body {
   }
 }
 
-/* Состояние загрузки */
 .LoadingContainer {
   display: flex;
   justify-content: center;
@@ -536,7 +513,6 @@ body {
   }
 }
 
-/* Сообщение об ошибке */
 .ErrorMessage {
   color: #FF4D4D;
   font-size: 14px;
@@ -547,7 +523,6 @@ body {
   border-radius: var(--border-radius-sm);
 }
 
-/* Добавляем максимальную ширину для всех изображений */
 img {
   max-width: 100%;
   height: auto;
