@@ -80,7 +80,7 @@ function App() {
 
   return (
     <div className="Container">
-      <div className="InfoCard">
+      <div className="AppHeader">
         <img src={RGcoinLogo} alt="RAP Game" className="HeaderLogo" />
         <div className="HeaderTitle">
           <h1>RAPGAME</h1>
@@ -89,10 +89,6 @@ function App() {
       </div>
 
       <div className="MainWrapper">
-        <div className="ConnectButtonWrapper">
-          <TonConnectButton />
-        </div>
-
         <div className="MainContent">
           {/* Секция обмена */}
           <div className="SwapSection">
@@ -186,6 +182,43 @@ function App() {
           </div>
 
           {error && <div className="ErrorMessage">{error}</div>}
+        </div>
+      </div>
+
+      {/* Информационная карточка */}
+      <div className="InfoCard">
+        <div className="InfoHeader">
+          <img src={RGcoinLogo} alt="RAP" className="InfoLogo" />
+          <div>
+            <h2>RAP Token</h2>
+            <p>Играй по свои правилам</p>
+          </div>
+        </div>
+        <div className="InfoGrid">
+          <div className="InfoItem">
+            <span>Min Purchase</span>
+            <span>1 USDT</span>
+          </div>
+          <div className="InfoItem">
+            <span>Max Purchase</span>
+            <span>1,000 USDT</span>
+          </div>
+          <div className="InfoItem">
+            <span>Token Price</span>
+            <span>10 USDT</span>
+          </div>
+          <div className="InfoItem">
+            <span>Total Supply</span>
+            <span>200,000 RAP</span>
+          </div>
+          <div className="InfoItem">
+            <span>Presale Supply</span>
+            <span>20,000 RAP</span>
+          </div>
+          <div className="InfoItem">
+            <span>Expected Growth</span>
+            <span className="GrowthPercentage">+322%</span>
+          </div>
         </div>
       </div>
     </div>

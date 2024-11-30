@@ -552,30 +552,3 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-/* Переопределение стилей TonConnect кнопки */
-:global(.tc-button) {
-  width: 100% !important;
-  background: transparent !important;
-  border: 2px solid var(--primary-color) !important;
-  border-radius: var(--border-radius-lg) !important;
-  padding: 12px 24px !important;
-  color: var(--text-primary) !important;
-  font-weight: 600 !important;
-  cursor: pointer !important;
-  transition: all 0.3s ease !important;
-  box-shadow: 0 0 20px rgba(var(--color-primary-rgb), 0.2) !important;
-}
-
-:global(.tc-button:hover) {
-  box-shadow: 0 0 30px rgba(var(--color-primary-rgb), 0.4) !important;
-  border-color: rgba(var(--color-primary-rgb), 0.8) !important;
-}
-
-:global(.tc-button__text) {
-  color: var(--text-primary) !important;
-}
-
-:global(.tc-button__loader) {
-  border-color: var(--primary-color) !important;
-}

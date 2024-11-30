@@ -4,7 +4,6 @@ import App from "./App";
 import { TonConnectUIProvider } from "@tonconnect/ui-react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import "./styles.css";
-import "./tonconnect.css";  // Импортируем стили для TonConnect
 
 // Create a client
 const queryClient = new QueryClient()
