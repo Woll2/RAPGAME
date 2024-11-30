@@ -389,9 +389,9 @@ body {
 
 /* TonConnect кнопка */
 .go3294896168 {
-  background: transparent !important;
+  background: rgba(0, 255, 0, 0.0) !important;
   color: var(--text-primary) !important;
-  padding: 8px 16px 8px 12px !important;
+  padding: 1px 100px !important;
   display: flex !important;
   align-items: center !important;
   gap: 4px !important;
