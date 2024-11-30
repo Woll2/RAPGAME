@@ -1,0 +1,45 @@
+.tc-button {
+  width: 100% !important;
+  background: transparent !important;
+  border: 2px solid rgba(0, 255, 102, 1) !important;
+  border-radius: 20px !important;
+  padding: 12px 24px !important;
+  color: rgba(255, 255, 255, 0.95) !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 0 20px rgba(0, 255, 102, 0.2) !important;
+  height: auto !important;
+  min-height: 48px !important;
+}
+
+.tc-button:hover {
+  box-shadow: 0 0 30px rgba(0, 255, 102, 0.4) !important;
+  border-color: rgba(0, 255, 102, 0.8) !important;
+  background: transparent !important;
+}
+
+.tc-button__text {
+  color: rgba(255, 255, 255, 0.95) !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 16px !important;
+}
+
+.tc-button__loader {
+  border-color: rgba(0, 255, 102, 1) !important;
+}
+
+/* Стили для выпадающего меню */
+.tc-dropdown {
+  background: #141414 !important;
+  border: 1px solid rgba(0, 255, 102, 0.1) !important;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2) !important;
+}
+
+.tc-dropdown__option {
+  color: rgba(255, 255, 255, 0.95) !important;
+}
+
+.tc-dropdown__option:hover {
+  background: rgba(0, 255, 102, 0.1) !important;
+}
