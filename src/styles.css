@@ -10,7 +10,7 @@
   
   /* Текст */
   --text-primary: rgba(255, 255, 255, 0.95);
-  --text-secondary: rgba(255, 255, 255, 0.6);
+  --text-secondary: rgba(0, 255, 102, 0.7);
   
   /* Границы */
   --border-color: rgba(var(--color-primary-rgb), 0.1);
@@ -292,7 +292,7 @@ body {
 
 .ConnectButtonWrapper {
   width: 100%;
-  max-width: 320px;
+  max-width: 500px;
   display: grid;
   place-items: center;
 }
@@ -388,6 +388,19 @@ body {
 }
 
 /* TonConnect кнопка */
+.go3974562317 {
+    background-color: #000000;
+    color: #000000;
+    box-shadow: 0px 0px 2px 1px #00ff66;
+    padding: 1px 100px;
+    display: inline-flex;
+    border: aqua;
+    gap: 4px;
+    height: 40px;
+    align-content: center;
+    align-items: center;
+}
+
 .go3294896168 {
   background: transparent !important;
   color: var(--text-primary) !important;
